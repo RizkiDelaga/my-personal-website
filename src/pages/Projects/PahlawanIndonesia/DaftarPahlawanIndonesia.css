@@ -1,0 +1,72 @@
+.background-indonesia {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.content-box {
+    background-color: aliceblue;
+    border-radius: 14px;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Table Section */
+.search-input {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+
+/* Combo Box Section */
+.hero-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Dropdown Section */
+.dropdown-button {
+    background-color: lightskyblue !important;
+    color: black !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    padding: 15px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.dropdown-menu.show {
+    height: 340px !important;
+    overflow-y: scroll !important;
+}
+
+
+/* Footer */
+.footer-quotes {
+    text-align: center;
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
